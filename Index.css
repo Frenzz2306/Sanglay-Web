@@ -1,0 +1,193 @@
+body {
+  background-color: #111;
+  font-family: 'Courier New', Courier, monospace;
+  color: #00ff00;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.header {
+  width: 80%;
+  background-color: rgba(0, 255, 0, 0.1);
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #00ff00;
+  margin-top: 20px;
+}
+
+.nav-icons {
+  display: flex;
+  gap: 15px;
+  font-size: 15px;
+}
+
+.nav-icons a {
+  color: #00ff00; 
+  text-decoration: none;
+}
+
+.nav-icons a:hover {
+  text-decoration: underline;
+}
+
+.welcome {
+  font-size: 30px;
+  font-weight: bold;
+  color: #00ff00;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.about, .skills, .contact {
+  width: 85%;
+  background-color: #222;
+  border: 2px solid #00ff00;
+  padding: 20px;
+  margin: 10px 0;
+  color: #00ff00;
+  text-align: center;
+}
+
+.about h2, .skills h2 {
+  font-size: 1.5em;
+  margin-top: 0;
+  color: #00ff00;
+}
+
+.profile-img {
+  width: 200px;
+  display: block;
+  margin: auto;
+}
+
+.skills {
+  color: #000000;
+}
+
+.skill-bar {
+  width: 100%;
+  background-color: #444;
+  margin: 10px 0;
+  position: relative;
+  height: 25px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.skill-bar div {
+  height: 100%;
+  background-color: #00ff00;
+  font-weight: bold;
+  width: 70%; 
+  padding: 5px 0;
+  color: #111;
+  text-align: center;
+}
+
+.special-header {
+  color: #00ff00; 
+  font-weight: bold; 
+  text-transform: uppercase; 
+  text-align: center; 
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.post {
+  text-align: center;
+}
+
+.post h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.post p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.post a {
+  display: inline-block;
+  margin: 10px;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #222;
+  border: 2px solid #00ff00;
+  border-radius: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.post {
+  text-align: center;
+}
+
+.post h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.post p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.post a {
+  display: inline-block;
+  margin: 10px;
+}
+
+.post img {
+  height: 300px;
+  transition: transform 0.3s;
+}
+
+.post img:hover {
+  transform: scale(1.1);
+}
+.post img {
+  height: 300px;
+  transition: transform 0.3s;
+}
+
+.post img:hover {
+  transform: scale(1.1);
+}
+.contact a {
+  color: #00ff00;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 14px;
+  text-align: center;
+  color: #00ff00;
+}
+
+.video-container {
+  margin: 30px;
+}
